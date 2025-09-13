@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Input any integer or decimal numbers ( for output it in digital format");
+        System.out.println("Input any integer or decimal numbers ( for output it in digital format)");
         String inputDigital = scan.next();
         if(!checkInput(inputDigital)) System.exit(0);
 
